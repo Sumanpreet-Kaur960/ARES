@@ -1,0 +1,66 @@
+.dashboard {
+  margin-left: 260px;
+  min-height: 100vh;
+  background: #0f172a;
+  padding: 30px;
+}
+
+.topbar {
+  margin: 25px 0;
+}
+
+.topbar h1 {
+  color: #00d4ff;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.topbar p {
+  color: #b8c1d1;
+  margin-top: 8px;
+}
+
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.analytics-card {
+  background: rgba(28, 50, 130, 0.55);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  border-radius: 20px;
+  padding: 25px;
+  color: white;
+  transition: 0.3s ease;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+.analytics-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 35px rgba(0, 212, 255, 0.35);
+}
+
+.analytics-card h2 {
+  color: #00e5ff;
+  margin-bottom: 15px;
+}
+
+.analytics-card p {
+  color: #d1d5db;
+  line-height: 1.6;
+}
+
+.chart-placeholder {
+  margin-top: 20px;
+  height: 220px;
+  border: 2px dashed rgba(0, 212, 255, 0.35);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8bdcff;
+  font-size: 18px;
+}
